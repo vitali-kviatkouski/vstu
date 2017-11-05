@@ -1,9 +1,9 @@
 
 function initMap() {
-	var current = {lat: 55.179823, lng: 30.221449};
+	var current = {lat: 55.1776271, lng: 30.2252502};
 	var markers = [];
 	var map = new google.maps.Map(document.getElementById('map'), {
-	  zoom: 14,
+	  zoom: 16,
 	  center: current
 	});
 	map.addListener('click', function(e) {
